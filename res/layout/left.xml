@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mlist"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white" >
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="fill_parent"
+        android:background="@android:color/transparent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/rl_left"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dip" >
+
+            <com.example.tsui.circleimage.CircleImage
+                android:id="@+id/head_view"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/head_women" />
+
+            <TextView
+                android:id="@+id/name_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_toRightOf="@+id/head_view"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/text_color"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <include
+            android:layout_width="fill_parent"
+            android:layout_height="2px"
+            layout="@layout/line" >
+        </include>
+
+        <TextView
+            android:id="@+id/user_info"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="个人信息"
+            android:textColor="@color/text_color"
+            android:textSize="15sp" />
+
+        <include
+            android:layout_width="fill_parent"
+            android:layout_height="2px"
+            layout="@layout/line" >
+        </include>
+
+        <TextView
+            android:id="@+id/user_order"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text="我的订单"
+            android:textColor="@color/text_color"
+            android:textSize="15sp" />
+
+       
+    </LinearLayout>
+
+</ScrollView>

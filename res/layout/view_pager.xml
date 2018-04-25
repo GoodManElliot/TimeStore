@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+    
+    <com.example.tsui.GooeyMenu
+        android:id="@+id/gooey_menu_free"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="55dp"
+        app:fab_radius="@dimen/big_circle_radius_free"
+        app:gap_between_menu_fab="@dimen/min_gap_free"
+        app:menu_radius="@dimen/small_circle_radius_free"
+        app:no_of_menu="0"
+        app:type="0"
+        app:menu_drawable="@array/drawable_array_free"/>
+    
+    <com.example.tsui.GooeyMenu
+        android:id="@+id/gooey_menu_busy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="55dp"
+        android:layout_alignParentBottom="true"
+        app:fab_radius="@dimen/big_circle_radius_busy"
+        app:gap_between_menu_fab="@dimen/min_gap_busy"
+        app:menu_radius="@dimen/small_circle_radius_busy"
+        app:no_of_menu="3"
+        app:type="1"
+        app:menu_drawable="@array/drawable_array"/>    
+
+</RelativeLayout>

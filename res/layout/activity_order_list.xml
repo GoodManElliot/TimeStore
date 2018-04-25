@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}"
+    android:background="#CCCCCC"
+    android:orientation="vertical"
+     >
+
+    <include
+	    	android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        layout="@layout/actionbar"
+	        android:visibility="visible" />
+   
+   <include
+            android:layout_width="fill_parent"
+            android:layout_height="4px"
+            layout="@layout/line" >
+    </include>
+    
+	<ListView 
+	    android:id="@+id/list"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:divider="#CCCCCC"  
+    	android:dividerHeight="8dp"
+	    ></ListView>
+
+</LinearLayout>

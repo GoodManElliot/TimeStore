@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    
+    <!--  Register text size -->
+    <dimen name="register_text_size">16sp</dimen>
+
+    <!-- Define standard dimensions to comply with Holo-style grids and rhythm. -->
+    <dimen name="margin_tiny">4dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_large">32dp</dimen>
+    <dimen name="margin_huge">64dp</dimen>
+    <dimen name="padding_tiny">4dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_large">32dp</dimen>
+    <dimen name="padding_huge">64dp</dimen>
+    <dimen name="main_bottom_bar_hegith">48dp</dimen>
+    <dimen name="delete_action_len">59dip</dimen>
+    <dimen name="margin_chat_activity">5dp</dimen>
+    <dimen name="size_avatar">50dp</dimen>
+    <dimen name="height_top_bar">46dp</dimen>
+    <dimen name="delete_action_len2">54dip</dimen>
+    <!--  Login text size -->
+    <dimen name="login_text_size">20sp</dimen>
+    
+    <!-- Menu -->
+    <dimen name="min_height_busy">550dp</dimen>
+    <dimen name="big_circle_radius_busy">70dp</dimen>
+    <dimen name="small_circle_radius_busy">50dp</dimen>
+    <dimen name="min_gap_busy">160dp</dimen>
+    
+    <dimen name="min_height_free">200dp</dimen>
+    <dimen name="big_circle_radius_free">70dp</dimen>
+    <dimen name="small_circle_radius_free">10dp</dimen>
+    <dimen name="min_gap_free">10dp</dimen>
+    
+    <dimen name="min_height">150dp</dimen>
+    <dimen name="big_circle_radius">100dp</dimen>
+    <dimen name="small_circle_radius">30dp</dimen>
+    <dimen name="min_gap">140dp</dimen>
+</resources>

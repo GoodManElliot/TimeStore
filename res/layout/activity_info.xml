@@ -1,0 +1,156 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" 
+    android:background="@color/bg_color"
+    >
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/actionbar" />
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="4px"
+        layout="@layout/line" >
+    </include>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+         >
+
+        <com.example.tsui.circleimage.CircleImage
+            android:id="@+id/head_img"
+            android:layout_width="100dp"
+            android:layout_height="100dp"       
+            android:src="@drawable/head_women" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:orientation="horizontal"
+        android:background="@color/white"
+         >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="用户名:"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+        
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_horizontal"
+            android:textColor="#000000"
+            android:textSize="20dp" />        
+	</LinearLayout>
+	<include
+        android:layout_width="fill_parent"
+        android:layout_height="4px"
+        layout="@layout/line" >
+    </include>
+    
+    
+	    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:orientation="horizontal"
+        android:background="@color/white"
+         >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="账户余额:"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+        
+        <TextView
+            android:id="@+id/money"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_horizontal"
+            android:textColor="#000000"
+            android:textSize="20dp" />        
+	</LinearLayout>
+	<include
+        android:layout_width="fill_parent"
+        android:layout_height="4px"
+        layout="@layout/line" >
+    </include>
+    
+	    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:orientation="horizontal"
+        android:background="@color/white"
+         >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="伸出援手:"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+        
+        <TextView
+            android:id="@+id/help"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_horizontal"
+            android:textColor="#000000"
+            android:textSize="20dp" />        
+	</LinearLayout>
+	<include
+        android:layout_width="fill_parent"
+        android:layout_height="4px"
+        layout="@layout/line" >
+    </include>
+	    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:orientation="horizontal"
+        android:background="@color/white"
+         >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="得到帮助:"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+        
+        <TextView
+            android:id="@+id/helped"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_horizontal"
+            android:textColor="#000000"
+            android:textSize="20dp" />        
+	</LinearLayout>
+   
+
+</LinearLayout>
